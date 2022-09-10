@@ -10,3 +10,13 @@ a {
 .iPad-Pro-Wallpaper {
     color:chocolate;
 }
+
+.fun-fact {
+    width: 300px;
+    position: absolute;
+    top: 5;
+    right: 5;
+
+    padding: 5px;
+    border: 1px solid black;
+}
