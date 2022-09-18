@@ -109,9 +109,16 @@ nav img {
     transition: 0.5s;
 }
 
-video {
-    display: block;
-    margin: auto;
+.video {
+
+    padding: 75% 0 0 0;
+    /* padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px; */
+    position: relative;
+    /* display: block; */
+    /* margin: auto; */
 }
 
 @media(max-width: 700px){
@@ -207,7 +214,7 @@ p {
 
 /* ---- Footer ---- */
 .footer {
-    background-color: black;
+    background-color: rgb(34, 30, 30);
     width: 100%;
     text-align: center;
     padding: 30px 0;
