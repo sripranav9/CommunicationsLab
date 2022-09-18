@@ -4,6 +4,11 @@
     font-family: 'Questrial', sans-serif;
 }
 
+/* This smoothens the scrolling behaviour when certain links are clicked*/
+html{
+    scroll-behavior: smooth;
+}
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -95,6 +100,7 @@ nav img {
     background: transparent;
     position: relative;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .video-btn:hover{
@@ -134,7 +140,7 @@ video {
     background-position: center;
     background-size: cover;
     position: relative;
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -169,4 +175,32 @@ p {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+}
+.cast-col{
+    flex-basis: 31%;
+    background: #3c3030;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.cast-col:hover{
+    box-shadow: 0 0 20px 0px #866c6c;
+}
+
+@media(max-width: 700px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+.description-para {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
