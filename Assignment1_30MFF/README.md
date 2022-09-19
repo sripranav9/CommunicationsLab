@@ -41,6 +41,11 @@ students across the globe.
   ````
 - I also wanted to add the logos for instagram, facebook, etc. for other social media handles in the Contact Me section but the link for these using font awesome did not work. 
 
+### Reflections
+Specifically talking about HTML, initially it was very overwhelming to use. Once I have practiced from several tutorials and got acquainted to the language, I was more comfortable to code in HTML and same the CSS as well. I really love how we can literally control every element using CSS. However, there are some elements whose execution I could not figure out with respect to what was in my wireframe (for eg. the '30MFF' in the top middle of the navigation bar). The rest I could figure out, in terms of adding anchor points to the buttons, and navigating through the page from variosu points. 
+
+It was a very good experience learning how to create websites from scratch. I have used builders like [Wix](https://www.wix.com) and found them to be not very responsive. So I have explored other builders like [Wordpress](www.wordpress.com), and mainly [EditorX](www.editorx.com) which is solely developed for responsive design, in which I failed to create a responsive website again. I think learning HTML and CSS has enabled me to probably try out the coding feature on EditorX, to create better responsive websites (specifically, portfolios!). 
+
 ### Sources
 1. [YouTube Tutorial: Making a responsive website using HTML and CSS](https://www.youtube.com/watch?v=oYRda7UtuhA)
 2. [YouTube Tutorial: [commlab] intro to html and css](https://www.youtube.com/watch?v=STPUv_f1IIw)
