@@ -18,7 +18,7 @@ students across the globe.
 - We then wanted to make use of our soft toys, and depict the common problem students had at universities. 
 - We then met to shoot videos quickly, and then came back to collaboratively edit the video.
 
-**Website**
+#### Website
 - Website Wireframe: [Figma Prototype](https://www.figma.com/proto/9OUJp1olSfL7t8W88q5o1s/30MFF-%7C-Communications-Lab?page-id=0%3A1&node-id=1%3A2&viewport=410%2C146%2C0.27&scaling=scale-down)
   - I made a wireframe and tried to stick to the elements in the wireframe. But as I explored more options in HTML and CSS, I decided to add some elements, and also delete some of them along the way.
 - I began with watching some tutorials on HTML and CSS (mentioned in the sources).
