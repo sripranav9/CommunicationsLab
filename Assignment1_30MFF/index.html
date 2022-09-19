@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>30MFF - Pranav</title>
     <link rel="stylesheet" href="style.css">
-    <!-- font style Questrial -->
+    <!-- font style Questrial from Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!-- Tried to add awesome fonts for cross mark, and other logos for social media handles, but did NOT work -->
     <link rel="stylesheet" href="https://stackpath.bootstrap.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -18,6 +19,7 @@
         <a href="index.html"><img src="media/Logo website.png" alt="A wallpaper with reel films"></a>
         <div class="nav-links">
             <ul>
+                <!-- navigation bar links -->
                 <li><a href="">Home</a></li>
                 <li><a href="#directors">Directors</a></li>
                 <li><a href="#contact">Contact Me</a></li>
@@ -39,21 +41,25 @@
 <section class="video">
     <h2 id="30mff video">30MFF Film</h2>
     
-    <!-- commenting this to try out vimeo embed -->
+    <!-- commenting this to try out vimeo embed from vimeo -->
+    <!-- Reason: GitHub doesn't support large videos -->
     <!-- <video width="90%" controls>
         <source src="media/30mffvideo.mp4" type="video/mp4">
         Your browser does not support the video format. It's suggested that you use Chrome, Safari, Firefox, or Edge. 
     </video> -->
 
+    <!-- Embed link from Vimeo -->
     <div style="padding:50% 0 10px 10px;position:relative;" class="video">
         <iframe src="https://player.vimeo.com/video/750975742?h=9881928fc6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="30MFF | Pranav | Communications Lab, Fall 2022">
         </iframe>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
 
+    <!-- description elements -->
     <h3>Description</h3>
     <p class="description-para">This is a 30MFF shot by 3 students from the class: Communications Lab (IM-UH 1011) at New York University, Abu Dhabi. The task was to finish shooting a video and edit it within 30 minutes. The video must have a story, a meaning, and should make sense (something that is not totally random). Our team came up with this idea as it is common for university students and we used our soft toys (featured as Coco and Ostap) to depict what we wanted to convey. Coco and Ostap are worried about their studies and hence they decide to meet up – showing how friends play an important role in university life. </p>
 
+    <!-- list of directors elements: using rows and columns -->
     <h3 id="directors">Directors</h3>
     <div class="row">
         <div class="cast-col">
@@ -78,7 +84,7 @@
     <p>Feel free to contact me via email for any queries or feedback!</p>
     <div class="icons">
         <a href="mailto:sri.pranav@nyu.edu" class="mail-btn">E-mail</a>
-        <!-- found to be not working -->
+        <!-- found to be not working, so commenting them out -->
         <!-- <i class="fa fa-facebook"></i>
         <i class="fa fa-instagram"></i>
         <i class="fa fa-twitter"></i>
