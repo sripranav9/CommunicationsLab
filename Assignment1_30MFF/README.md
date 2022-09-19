@@ -45,6 +45,7 @@ students across the globe. The primary and secondary colors used in this website
         navLinks.style.right = "-200px" //selecting the right element under the style menu of navLinks
     }
     ````
+ - I have also asked some of my friends to preview the experience and took their feedback for the button sizes, and colors etc. I have received a good feedback so far. So I've implemented some of the slight color changes for a better user experience.
 
 ### Problems and a few workarounds
 - The edited video is around 800 MB, so GitHub Desktop couldn't push the video to the server owing to the large file size. The workaround to this was to post the video on Vimeo, and copy an Embed link from Vimeo into the HTML file to fully embed the video into the website. 
@@ -57,7 +58,6 @@ students across the globe. The primary and secondary colors used in this website
   }
   ````
 - I also wanted to add the logos for instagram, facebook, etc. for other social media handles in the Contact Me section but the link for these using font awesome did not work, initially. I had to update the version of the Font Awesome on the HTML page, and also make sure the icons are not pro version ones. I could also finally make them work as clickable links which open in new-tabs.
-- For the element
 
 ### Reflections
 Specifically talking about HTML, initially it was very overwhelming to use. Once I have practiced from several tutorials and got acquainted to the language, I was more comfortable to code in HTML and same the CSS as well. I really love how we can literally control every element using CSS. However, there are some elements whose execution I could not figure out with respect to what was in my wireframe (for eg. the '30MFF' in the top middle of the navigation bar). The rest I could figure out, in terms of adding anchor points to the buttons, and navigating through the page from various points. Furthermore, I am now acquanited with embedding vimeo videos as well, which lets me put videos of any size into the website.
