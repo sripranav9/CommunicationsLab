@@ -4,7 +4,7 @@
     font-family: 'Questrial', sans-serif;
 }
 
-/* This smoothens the scrolling behaviour when certain links are clicked*/
+/* This smoothens the scrolling behaviour when links to anchor points are clicked*/
 html{
     scroll-behavior: smooth;
 }
