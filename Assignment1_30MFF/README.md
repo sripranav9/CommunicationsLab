@@ -1,4 +1,4 @@
-# Assignment 1: Website
+# Assignment 1: Website | Sep 21
 ## [Coco and Ostap](https://sripranav9.github.io/CommunicationsLab/Assignment1_30MFF/)
 
 ### Description
