@@ -27,7 +27,23 @@ students across the globe.
 - After creating the button, I went on to create the next section to have the main video and a title called '30MFF video' which I've linked to the button to watch the film using an anchor point using ````id```` parameter on HTML.
 - Then I created a container to have the description in it, and further the team of directors - which is a composition of 1 row and 3 columns. 
 - I've also highlighted them using different colors to attract attention from the users, adding a hover effect. (this might be a problem sometimes as the user might think the highlighted effect post hover means a link that is attached. 
-- Finally, I added a Contact Me section that can let the user email me. 
+- Finally, I added a Contact Me section that can let the user email me or contact me via any of the social media handles (using Font Awesome icons) that opens the tabs in new windows.
+- For the JavaScript element, I have created a hamburger menu for the website to be responsive when the device sizes are not very wide. 
+  - Under ````@media````, I have added code to show some icons when the website is used for smaller widths (code can be found from line 142 under ````style.css```` file in this directory).
+  - The ````script.js```` file has a short code block for the functions to open and close the hamburger menu.
+    ````
+    var navLinks = document.getElementById("navLinks");
+
+    // to show the menu when the hamburger icon is clicked
+    function showMenu() {
+        navLinks.style.right = "0"; //selecting the right element under the style menu of navLinks
+    }
+
+    //to hide the menu when the cross button is clicked
+    function hideMenu() {
+        navLinks.style.right = "-200px" //selecting the right element under the style menu of navLinks
+    }
+    ````
 
 ### Problems and a few workarounds
 - The edited video is around 800 MB, so GitHub Desktop couldn't push the video to the server owing to the large file size. The workaround to this was to post the video on Vimeo, and copy an Embed link from Vimeo into the HTML file to fully embed the video into the website. 
@@ -40,6 +56,7 @@ students across the globe.
   }
   ````
 - I also wanted to add the logos for instagram, facebook, etc. for other social media handles in the Contact Me section but the link for these using font awesome did not work, initially. I had to update the version of the Font Awesome on the HTML page, and also make sure the icons are not pro version ones. I could also finally make them work as clickable links which open in new-tabs.
+- For the element
 
 ### Reflections
 Specifically talking about HTML, initially it was very overwhelming to use. Once I have practiced from several tutorials and got acquainted to the language, I was more comfortable to code in HTML and same the CSS as well. I really love how we can literally control every element using CSS. However, there are some elements whose execution I could not figure out with respect to what was in my wireframe (for eg. the '30MFF' in the top middle of the navigation bar). The rest I could figure out, in terms of adding anchor points to the buttons, and navigating through the page from various points. Furthermore, I am now acquanited with embedding vimeo videos as well, which lets me put videos of any size into the website.
