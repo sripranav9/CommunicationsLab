@@ -29,7 +29,7 @@ students across the globe.
 - I've also highlighted them using different colors to attract attention from the users, adding a hover effect. (this might be a problem sometimes as the user might think the highlighted effect post hover means a link that is attached. 
 - Finally, I added a Contact Me section that can let the user email me. 
 
-### Problems
+### Problems and a few workarounds
 - The edited video is around 800 MB, so GitHub Desktop couldn't push the video to the server owing to the large file size. The workaround to this was to post the video on Vimeo, and copy an Embed link from Vimeo into the HTML file to fully embed the video into the website. 
 - I wanted to add more scroll like effect when the buttons are clicked which takes the user to the specific anchor point in the page, mainly for a smoother user experience. To do this I had to add the following to the top in the ````style.css```` file:
 
