@@ -39,7 +39,7 @@ students across the globe.
       scroll-behavior: smooth;
   }
   ````
-- I also wanted to add the logos for instagram, facebook, etc. for other social media handles in the Contact Me section but the link for these using font awesome did not work. 
+- I also wanted to add the logos for instagram, facebook, etc. for other social media handles in the Contact Me section but the link for these using font awesome did not work, initially. I had to update the version of the Font Awesome on the HTML page, and also make sure the icons are not pro version ones. I could also finally make them work as clickable links which open in new-tabs.
 
 ### Reflections
 Specifically talking about HTML, initially it was very overwhelming to use. Once I have practiced from several tutorials and got acquainted to the language, I was more comfortable to code in HTML and same the CSS as well. I really love how we can literally control every element using CSS. However, there are some elements whose execution I could not figure out with respect to what was in my wireframe (for eg. the '30MFF' in the top middle of the navigation bar). The rest I could figure out, in terms of adding anchor points to the buttons, and navigating through the page from various points. Furthermore, I am now acquanited with embedding vimeo videos as well, which lets me put videos of any size into the website.
@@ -50,5 +50,7 @@ It was a very good experience learning how to create websites from scratch. I ha
 1. [YouTube Tutorial: Making a responsive website using HTML and CSS](https://www.youtube.com/watch?v=oYRda7UtuhA)
 2. [YouTube Tutorial: [commlab] intro to html and css](https://www.youtube.com/watch?v=STPUv_f1IIw)
 3. [Google Fonts](https://www.google.com/fonts)
-4. [Anchor points in HTML](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html)
+4. [YouTube Tutorial: Font Awesome](https://www.youtube.com/watch?v=q93hR316nk4&t=460s)
+5. [Anchor points in HTML](https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html)
+6. [Font Awesome](https://fontawesome.com/icons/bars?s=solid&f=classic)
 
