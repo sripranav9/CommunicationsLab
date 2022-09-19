@@ -13,12 +13,14 @@ team of directors, and a 'contact me' option for visitors to shoot an email to m
 students across the globe. 
 
 ### Process
-**Film**
+#### Film
 - As a group, we took 4-6 minutes to brainstorm on the topic, finding a story that could enable us to depict itself using the objects around us. 
 - We then wanted to make use of our soft toys, and depict the common problem students had at universities. 
 - We then met to shoot videos quickly, and then came back to collaboratively edit the video.
 
 **Website**
+- Website Wireframe: [Figma Prototype](https://www.figma.com/proto/9OUJp1olSfL7t8W88q5o1s/30MFF-%7C-Communications-Lab?page-id=0%3A1&node-id=1%3A2&viewport=410%2C146%2C0.27&scaling=scale-down)
+  - I made a wireframe and tried to stick to the elements in the wireframe. But as I explored more options in HTML and CSS, I decided to add some elements, and also delete some of them along the way.
 - I began with watching some tutorials on HTML and CSS (mentioned in the sources).
 - I started making some basic html pages embedding some media like videos and images.
 - After experimenting with a lot of functions in CSS, I began with the first section, or rather, the navigation bar of the main website: It took some time to get to know how to add transition to the hover effect, but it seems pretty easy now. Next I added the button to watch the movie, initially, I was exploring the idea of embedding a link to google drive where the film can be watched, but embedding it was something I was keen on exploring. 
