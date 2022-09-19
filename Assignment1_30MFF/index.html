@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <!-- Tried to add awesome fonts for cross mark, and other logos for social media handles, but did NOT work -->
-    <link rel="stylesheet" href="https://stackpath.bootstrap.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
 <section class="header">
     <nav>
         <a href="index.html"><img src="media/Logo website.png" alt="A wallpaper with reel films"></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+            <i class="fa-regular fa-xmark" onclick="hideMenu()"></i> <!--function from JavaScript-->
             <ul>
                 <!-- navigation bar links -->
                 <li><a href="">Home</a></li>
@@ -25,6 +26,7 @@
                 <li><a href="#contact">Contact Me</a></li>
             </ul>
         </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i> <!--function from JavaScript-->
     </nav>
     
 <div class="text-box">
@@ -83,14 +85,18 @@
     <h3 id="contact">Contact Me</h3>
     <p>Feel free to contact me via email for any queries or feedback!</p>
     <div class="icons">
+        <a href="https://www.facebook.com/sripranav.srivatsavai/" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+        <a href="https://www.instagram.com/sripranav.sv/" target="_blank"> <i class="fa-brands fa-instagram"></i> </a>
+        <a href="https://www.twitter.com/sripranavsv/" target="_blank"> <i class="fa-brands fa-twitter"></i> </a>
+        <a href="https://www.linkedin.com/sripranav-srivatsavai/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+    </div>
+    <div>
+        <!-- this is for the mail me button with a class mail-btn. -->
         <a href="mailto:sri.pranav@nyu.edu" class="mail-btn">E-mail</a>
-        <!-- found to be not working, so commenting them out -->
-        <!-- <i class="fa fa-facebook"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-linkedin"></i> -->
     </div>
 </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
