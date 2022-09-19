@@ -10,7 +10,7 @@ and nothing might be going right in their lives, hence they decide to meet up â€
 we needed to create a website using HTML, CSS, and JavaScript. The link to the website can be found [here](https://sripranav9.github.io/CommunicationsLab/Assignment1_30MFF/) 
 or in the title above. The website is a landing page with all the necessary sections in one main homepage â€“ main title, the video (embedded using vimeo), 
 team of directors, and a 'contact me' option for visitors to shoot an email to me. The website is in a dark setting to show this problem at large common to many 
-students across the globe. 
+students across the globe. The primary and secondary colors used in this website are reddish-orange and black (with white text) to display the alarming and dark reality.
 
 ### Process
 #### Film
