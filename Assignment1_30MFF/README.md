@@ -31,6 +31,7 @@ students across the globe.
 - For the JavaScript element, I have created a hamburger menu for the website to be responsive when the device sizes are not very wide. 
   - Under ````@media````, I have added code to show some icons when the website is used for smaller widths (code can be found from line 142 under ````style.css```` file in this directory).
   - The ````script.js```` file has a short code block for the functions to open and close the hamburger menu.
+  
     ````
     var navLinks = document.getElementById("navLinks");
 
