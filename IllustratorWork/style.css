@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+}
+
+/* This smoothens the scrolling behaviour when links to anchor points are clicked*/
+html{
+    scroll-behavior: smooth;
+}
+
+/* main navigation bar */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(media/bg-one.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    list-style: none;
+    display: inline-block;
+    padding: 3% 6%;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* text boxes */
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 80px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+}
+
+h2 {
+    color: white;
+    font-size: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/* the button for the illustrations option */
+.illustrator-btn {
+    display: inline-block;
+    text-decoration: none; 
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* hover effect for the button */
+.illustrator-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+.photoshop-btn{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* hover effect for the button */
+.photoshop-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+/* this is for the content */
+.content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content h1{
+    font-size: 55px;
+    color: rgb(45, 49, 66);
+}
+
+.content h3{
+    font-size: 25px;
+    color: rgb(45, 49, 66);
+}
+
+.content p{
+    color: rgb(45, 49, 66);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.content-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-col img {
+    width: 40%;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(45, 49, 66, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* responsive design */
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 45px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+}
+
+/* footer design */
+/* ---- Footer and other elements in the footer ---- */
+.footer {
+    background-color: rgb(45, 49, 66);
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.mail-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.fa-brands {
+    display: block;
+    color: #f44336;
+    margin: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.mail-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}
