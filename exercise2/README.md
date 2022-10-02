@@ -1,5 +1,5 @@
 # Exercise 2: Illustrator and Photoshop | Oct 3
-## [Website to host the designs](https://sripranav9.github.io/CommunicationsLab/Assignment1_30MFF/)
+## <a href="https://sripranav9.github.io/CommunicationsLab/Assignment1_30MFF/" target="_blank">Website to host the designs</a>
 
 ### Description
 This is a website to host the .svg file type illustrations made using Adobe Illustrator and .jpeg file type images made using Adobe Photoshop. In the website you can also click the media which takes you to the google drive where you can download the original file. As always, I have added my contact details in the footer for people to contact me with any questions. 
