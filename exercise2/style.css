@@ -99,7 +99,7 @@ p {
     transition: 0.5s;
 }
 
-.photoshop-btn{
+.readmore-btn{
     text-decoration: none;
     margin-left: 10px;
     color: #fff;
@@ -113,7 +113,7 @@ p {
 }
 
 /* hover effect for the button */
-.photoshop-btn:hover{
+.readmore-btn:hover{
     border: 1px solid #f44336;
     background: #f44336;
     transition: 0.5s;
