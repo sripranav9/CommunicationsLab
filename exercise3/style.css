@@ -1,0 +1,91 @@
+/* Rancho Font import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;;
+}
+
+body{
+    overflow-x: hidden;
+    background: rgba(0, 0, 0, 0.969);
+    min-height: 100vh; 
+}
+
+/* ******************* */
+/* Header elements */
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+#header .logo {
+    color: white;
+    font-weight: 500;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+#header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.516);
+    padding: 11px 36px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+#header ul li a:hover,
+#header ul li a.active  {
+    background: #f44336;
+    color: white;
+    transition: 0.5s;
+}
+/* ******************* */
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section #text {
+    position: absolute;
+    color: white;
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Rancho', cursive;
+}
+
+section #text span {
+    font-size: 0.20em;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
