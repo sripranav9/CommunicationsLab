@@ -66,6 +66,7 @@ body{
 /* ******************* */
 
 section {
+    margin-top: 10vh;
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -88,4 +89,5 @@ section #text span {
     font-size: 0.20em;
     letter-spacing: 1px;
     font-weight: 400;
+    font-family: 'Questrial', sans-serif;
 }
