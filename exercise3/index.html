@@ -8,6 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <!-- to add awesome fonts for cross mark, and other logos for social media handles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 <body>
     <header id="header">
@@ -18,7 +26,90 @@
         </ul>
     </header>
     <section>
-        <h2 id="text"><span>It's time for a new</span><br>Adventure</h2>
+        <h2 id="text"><span>It's ... </span><br>Storytime</h2>
     </section>
+
+
+    <!-- story begins -->
+    <div class="characters" data-aos="fade-down">
+        <h1>Sneak-peak Into the life of Ben and Gwen<br><br></h1>
+        <h2>Charaters in the Story:<br>Ben, Gwen, Dad</h2>
+    </div>
+
+    <div class="img" data-aos="zoom-in">
+        <img src="media/sand.png" class="image" alt="an image of kid paying with sand">
+    </div>
+    <div class="story" data-aos="fade-right">
+        <p>
+            Ben's enjoying his time of the day while playing with the sand <br>
+            building castles and exploring new shapes. 
+        </p>
+    </div>
+
+    <div class="img" data-aos="zoom-out">
+        <img src="media/run.png" class="image" alt="an image of kid running and jumping over a log">
+    </div>
+    <div class="story" data-aos="fade-left">
+        <p>
+            It was then that his Dad sees him and shouts his name, and suddenly<br>
+            Ben gets scared and starts running away from his father.  
+        </p>
+    </div>
+
+    <div class="img" data-aos="flip-up">
+        <img src="media/sister.png" class="image" alt="an image of a young girl with spectacles">
+    </div>
+    <div class="story" data-aos="fade-right">
+        <p>
+            Meanwhile, his sister's having fun looking at his brother<br>
+            geting scared and panicking!
+        </p>
+    </div>
+
+    <div class="img" data-aos="fade-up-right">
+        <img src="media/father.png" class="image" alt="an image of a father scolding his son">
+    </div>
+    <div class="story" data-aos="fade-up">
+        <p>
+            Dad catches up up to Ben and begins explaining him why he<br>
+            shoundn't be playing with sand and why it's unhealthy...
+        </p>
+    </div>
+    
+    <div class="img" data-aos="fade-up-left">
+        <img src="media/noshame.jpg" class="image" alt="two young kids talking">
+    </div>
+    <div class="story" data-aos="fade-up">
+        <p>
+            After Dad's and Ben's coversation Gwen asks Ben if he has no shame after all that happened,<br>
+            and both start laughing and Gwen says "This is so funny ah!"
+        </p>
+    </div>
+
+    <div class="img" data-aos="flip-down">
+        <img src="media/stopacting.jpg" class="image" alt="two young kids talking">
+    </div>
+    <div class="story" data-aos="fade-up">
+        <p>
+            5 minutes later, Ben joins Gwen when she's doing her homework and mocks,<br>
+            at her, "You? Studying? This is so funny ah!" <br>
+            They both start laughing.
+        </p>
+    </div>
+    
+    <section>
+        <h2 id="textend">The End</h2>
+    </section>
+
+    <!-- Script -->
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+
+
+
 </body>
 </html>

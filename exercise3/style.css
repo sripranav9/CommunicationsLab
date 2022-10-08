@@ -85,9 +85,70 @@ section #text {
     font-family: 'Rancho', cursive;
 }
 
+section #textend {
+    position: absolute;
+    color: white;
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Rancho', cursive;
+}
+
 section #text span {
     font-size: 0.20em;
     letter-spacing: 1px;
     font-weight: 400;
     font-family: 'Questrial', sans-serif;
+}
+
+.characters {
+    position: relative;
+    text-align: center;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 80vw;
+    min-height: 250px;
+}
+
+.characters h1 {
+    font-size: 75px;
+    color: white;
+}
+
+.characters h2 {
+    font-size: 50px;
+    color: white;
+    line-height: 1.5em;
+}
+
+.img {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 80vw;
+}
+
+.story {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.story p {
+    font-size: 25px;
+    color: white;
+    line-height: 2em;
+}
+
+.image {
+    margin-top: 200px;
+    margin-bottom: 40px;
+    position:relative;
+    max-width: 1000px;
 }
