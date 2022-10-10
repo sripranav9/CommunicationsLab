@@ -4,7 +4,7 @@
 >Group: Basil, Liza, Mohid, Pranav
 
 ### Description
-The website hosts a short comic titled 'The Falcons'. The Falcons (inspired from The Marvels) are a group of 5 superheros of NYU Abu Dhabi. Each hero has their own special powers. When clicked on the heros, the website automatically scrolls down to the story of that hero which shows the story and power of that particular hero. The 5 heros are responsible for different problems students usually face on a dialy basis:
+The website hosts a short comic titled 'The Falcons'. The Falcons (inspired from The Marvels) are a group of 5 superheros at NYU Abu Dhabi. Each hero has their own special powers. When clicked on the heros, the website automatically scrolls down to the story of that partcilar hero which shows their powers and a short conversation. The 5 heros are responsible for different problems students usually face on a dialy basis:
   - **Library:** Finding material in the library
   - **Academics:** Difficulty in solving problems
   - **D2:** Running out of mealswipes
