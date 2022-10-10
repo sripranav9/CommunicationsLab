@@ -1,0 +1,70 @@
+body {
+    background-color: antiquewhite;
+}
+
+
+
+.header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    height: 100vh;
+    align-self: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#flying {
+    transition: transform .2s ease;
+    cursor: pointer;
+}
+
+#flying:hover {
+    transform: scale(1.01);
+    filter: brightness(80%);    
+}
+
+#findx {
+    transition: transform .2s ease;
+}
+
+#findx:hover {
+    transform: scale(1.01);
+    filter: brightness(80%);    
+    cursor: pointer;
+}
+
+#gym {
+    transition: transform .2s ease;
+}
+
+#gym:hover {
+    transform: scale(1.01);
+    filter: brightness(80%);
+    cursor: pointer;    
+}
+
+#d2 {
+    transition: transform .2s ease;
+}
+
+#d2:hover {
+    transform: scale(1.01);
+    filter: brightness(80%);
+    cursor: pointer;    
+}
+
+#lib {
+    transition: transform .2s ease;
+}
+
+#lib:hover {
+    transform: scale(1.01);
+    filter: brightness(80%);
+    cursor: pointer;    
+}
