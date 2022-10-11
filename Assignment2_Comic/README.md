@@ -59,3 +59,5 @@ Software: Adobe Illustrator, Adobe Photoshop, picsart.com
 It was very interesting for us as IM and CS majors to work on this project collectively, each bringing their own expertise and creativity. We were on track with our internal deliverables throughout and made practical projections of the work to be completed each day and the final result to be acheived. Overall, we loved working with each other as we set clear goals and divided the work appropriately. 
   
 Some challenges we faced were with regards to the illustrations, it would've been a little difficult in terms of the time we have to create different versions of one character instead of the 5 we did in this assignment. Searching for the right font also took a long time as we needed the best possible font to convey the messages to our audience. 
+  
+Overall, we loved working together! Go TEAM Basil, Liza, Mohid, Pranav!
