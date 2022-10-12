@@ -23,6 +23,8 @@ Some tools we used to depict this are as follows:
 
 **Software:** Adobe Illustrator, Adobe Photoshop, picsart.com
 
+We have used 6 panels as per the assignment description (4 panels for 4 characters and 2 panels for 5th character).
+
 
 ### Process
 
