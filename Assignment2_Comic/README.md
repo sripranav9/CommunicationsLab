@@ -18,6 +18,7 @@ Although the characters do not exatly provide solutions to those problems, each 
 **Ablilty to resonate:** Another point we thought of is the type of emotion we wanted our readers to feel. With the stories being something very local and common, we wanted our readers to feel a sense of relatibily while reading our stories in order for them to be more invested into the panel.
 
 Some tools we used to depict this are as follows:
+
 **Coding Languges:** HTML, CSS, JavaScript
 
 **Software:** Adobe Illustrator, Adobe Photoshop, picsart.com
