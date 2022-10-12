@@ -1,5 +1,5 @@
 # Assignment 2: Comic | Oct 12
-## [The Falcons](https://sripranav9.github.io/CommunicationsLab/)
+## [The Falcons](https://sripranav9.github.io/CommunicationsLab/Assignment2_Comic)
 
 >Group: Basil, Liza, Mohid, Pranav
 
