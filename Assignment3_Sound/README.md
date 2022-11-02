@@ -1,6 +1,8 @@
 # Assignment 3: Sound | Nov 2
 ## [A Day in the Life of a Student at NYU Abu Dhabi](https://vsharkovski.github.io/commlab-sound/)
 
+### Link to the Code: [Collborative Repository](https://github.com/vsharkovski/commlab-sound)
+
 >Group: Liza, Vladimir, Yiyang, Pranav
 ### Description
 This website hosts a project piece aimed at presenting the life of a typical NYU Abu Dhabi student using solely the elements of audio and some supporting images. We as students in this university believe that there is/are some specific sound(s) associated with every place we visit - so much so that we can visulaize the scenario using solely the sounds. 
