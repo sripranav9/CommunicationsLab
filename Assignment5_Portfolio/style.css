@@ -212,8 +212,8 @@ nav a:hover{ /* for the hover of Sri Pranav Srivatsavai  */
     font-size: 18px;
 }
 
-/* ****************************************** */
-/* Commlab.html things */
+
+/* Commlab.html things and design.html things */
 /* this is for the content */
 .content {
     background-color: black;
@@ -284,7 +284,51 @@ nav a:hover{ /* for the hover of Sri Pranav Srivatsavai  */
     opacity: 1;
 }
 
-/* ****************************************** */
+.readmore {
+    background-color: #000;
+    color: #fff;
+}
+
+.readmore h2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.readmore h4 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.readmore p {
+    text-align: center;
+    line-height: 2em;
+}
+
+/* the row and column rules */
+.row{
+    margin-top: 5%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.cast-col{
+    flex-basis: 31%;
+    background: #30303c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+/* hover action for columns */
+.cast-col:hover{
+    box-shadow: 0 0 20px 0px #3e3e40;
+}
 
 
 
