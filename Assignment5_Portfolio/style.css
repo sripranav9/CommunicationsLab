@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', 'Inter', sans-serif;
+}
+
+/* This smoothens the scrolling behaviour when links to anchor points are clicked*/
+html{
+    scroll-behavior: smooth;
+}
+
+/* main navigation bar */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #eff4fd; */
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(media/illusion1.mov);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.commlabHeader {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #eff4fd; */
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(media/commlab/commlabMain.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.designHeader {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #eff4fd; */
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(media/design/designMain.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* other navigation bar elements */
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav a- for the heading */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover{ /* for the hover of Sri Pranav Srivatsavai  */
+    color:rgb(111, 104, 106);
+    transition: 0.25s;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* to be done after cursor moves to this place  */
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    /* background: #f44336; */
+    background: #f44336;
+    display: block;
+    margin: 2px;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/* Left Main Box */
+.leftMain-box {
+    color: #fff;
+    margin-left: 8%;
+    margin-top: 15%; 
+}
+
+.leftMain-box h1{
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+.leftMain-box h3{
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+
+.leftMain-box p{
+    margin-top: 40px;
+    line-height: 2em;
+    margin: 10px 0 40px;
+    font-size: 18px;
+}
+
+/* the button for the ∑atch video option */
+.btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* hover effect for the button */
+.btn1:hover{
+    border: 1px solid #0e3a99;
+    background: #0e3a99;
+    transition: 0.5s;
+    color: #fff;
+
+}
+
+.btn2{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* hover effect for the button */
+.btn2:hover{
+    color: #fff;
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+.homeMedia {
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.homeMedia img {
+    /* height: 50%; */
+    position: absolute;
+    left: 25%;
+    bottom: -25%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.homeMedia:hover .logo{
+    bottom: 40px;
+}
+
+.homeMedia:hover .pranavStanding{
+    left: 45%;
+}
+
+/* text boxes for other HTML pages*/
+.text-box {
+    width: 90%;
+    color: rgb(214, 212, 222);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 65px;
+}
+
+.text-box h2{
+    font-size: 28px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+}
+
+/* ****************************************** */
+/* Commlab.html things */
+/* this is for the content */
+.content {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content h1{
+    font-size: 55px;
+    color: #fff;
+}
+
+.content h3{
+    font-size: 25px;
+    color: #fff;
+}
+
+.content p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.content-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-col img {
+    width: 40%;
+}
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(45, 49, 66, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* ****************************************** */
+
+
+
+/* footer design */
+/* ---- Footer and other elements in the footer ---- */
+.footer {
+    color: #fff;
+    background-color: rgb(0,0,0);
+    /* background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(media/illusion1.mov); */
+    background-attachment: fixed;
+    width: 100%;
+    text-align: center;
+    /* padding: 30px 0; */
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.footer p {
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.mail-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.fa-brands {
+    display: block;
+    color: #f44336;
+    margin: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.mail-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+}
+/* END OF FOOTER */
+
+
+
+
