@@ -440,6 +440,13 @@ nav a:hover{ /* for the hover of Sri Pranav Srivatsavai  */
     box-shadow: 0 0 20px 0px #3e3e40;
 } 
 
+/* Responsive Design */
+/* to make the website more responsive */
+@media(max-width: 700px) {
+    .about-row{
+        flex-direction: column;
+    }
+}
 
 
 /* footer design */
