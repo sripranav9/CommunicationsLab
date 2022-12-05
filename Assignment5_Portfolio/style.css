@@ -14,7 +14,7 @@ html{
     min-height: 100vh;
     width: 100%;
     /* background-color: #eff4fd; */
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(media/illusion1.mov);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(media/home.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -251,7 +251,7 @@ nav a:hover{ /* for the hover of Sri Pranav Srivatsavai  */
 .btn6{
     text-decoration: none;
     margin-left: 10px;
-    color: #0F9D58;
+    color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
@@ -263,9 +263,9 @@ nav a:hover{ /* for the hover of Sri Pranav Srivatsavai  */
 
 /* hover effect for the button */
 .btn6:hover{
-    color: #0F9D58;
-    border: 1px solid #DB4437;
-    background: #4267B2;
+    color: #fff;
+    border: 1px solid #a41e12;
+    background: #a41e12;
     transition: 0.5s;
 }
 
@@ -281,18 +281,19 @@ nav a:hover{ /* for the hover of Sri Pranav Srivatsavai  */
     /* height: 50%; */
     position: absolute;
     left: 25%;
-    bottom: -25%;
+    bottom: 5%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 
 }
 
 .homeMedia:hover .logo{
-    bottom: 40px;
+    bottom: 250px;
+    /* transition: 3s; */
 }
 
 .homeMedia:hover .pranavStanding{
-    left: 45%;
+    left: 45px;
 }
 
 /* text boxes for other HTML pages*/
